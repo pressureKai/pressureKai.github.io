@@ -1,10 +1,11 @@
 .slider {
   text-align: center;
   position: relative;
+  hover: color:red;
 }
 
 .slide {
- text-align: center;
+  text-align: center;
   position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -22,4 +23,8 @@ img {
   object-fit: cover;
 }
 
-.div_background{ color:red;}
+/*
+* 为div 设置 foreground
+*  参考来源
+*  https://blog.csdn.net/qq_45709187/article/details/124508802
+*/
