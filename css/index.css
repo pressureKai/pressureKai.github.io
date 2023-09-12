@@ -1,7 +1,13 @@
 .slider {
   text-align: center;
-  position: relative;
-  hover: color:red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .slide {
@@ -22,9 +28,3 @@ img {
   height: auto;
   object-fit: cover;
 }
-
-/*
-* 为div 设置 foreground
-*  参考来源
-*  https://blog.csdn.net/qq_45709187/article/details/124508802
-*/
